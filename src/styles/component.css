@@ -140,6 +140,6 @@ input:checked + .slider-toggle:before {
 
 .battery-level {
   @apply absolute h-2 top-1/2 -m-1 left-0;
-  margin-left: 0.1rem;
+  margin-left: 0.15rem;
   border-radius: 1px;
 }
