@@ -9,7 +9,7 @@ export default function Battery() {
   };
 
   const color = (): string => {
-    if (batteryState.charging) return "bg-green-500";
+    if (batteryState.charging) return "bg-green-400";
 
     if (batteryState.level < 0.2) return "bg-red-500";
     else if (batteryState.level < 0.5) return "bg-yellow-500";
